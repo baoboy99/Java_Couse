@@ -16,6 +16,10 @@ public class MainClass {
 		System.out.println(DaoXau.thuchien(s));
 		//Gọi hàm đảo từ
 		System.out.println(DaoTu.thuchien(s));
+		System.out.println("Nhập vào xâu con : ");
+		String r = "";
+		r = br.readLine();
+		System.out.println(XacDinhViTriXauCon.thuchien(s, r));
 		
 		//Nhập vào mảng theo định dạng các phần tử cách nhau bằng kt trắng 1 2 3
 		String input = br.readLine();
